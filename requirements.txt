@@ -1,0 +1,21 @@
+# Core ML
+torch>=2.8.0
+torchvision
+triton>=3.4.0
+bitsandbytes
+
+# Transformers stack
+transformers==4.56.2
+tokenizers
+trl==0.22.2
+
+# Utilities
+numpy
+pillow
+
+# Unsloth
+unsloth
+unsloth_zoo[base]
+
+# Triton kernels (pinned commit)
+git+https://github.com/triton-lang/triton.git@0add68262ab0a2e33b84524346cb27cbb2787356#subdirectory=python/triton_kernels
